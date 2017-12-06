@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCatalog", "GameCatalog\GameCatalog.csproj", "{D5483819-B18D-4B3B-A386-AE6AFD3293C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{6E20BD22-034B-480F-AD30-5E8D355A8D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5483819-B18D-4B3B-A386-AE6AFD3293C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5483819-B18D-4B3B-A386-AE6AFD3293C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5483819-B18D-4B3B-A386-AE6AFD3293C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5483819-B18D-4B3B-A386-AE6AFD3293C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E20BD22-034B-480F-AD30-5E8D355A8D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E20BD22-034B-480F-AD30-5E8D355A8D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E20BD22-034B-480F-AD30-5E8D355A8D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E20BD22-034B-480F-AD30-5E8D355A8D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3824F7E-339A-486E-BE1F-41355D9B297F}
+	EndGlobalSection
+EndGlobal

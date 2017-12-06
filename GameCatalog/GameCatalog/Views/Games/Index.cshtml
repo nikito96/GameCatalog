@@ -1,0 +1,56 @@
+﻿@model PagedList.IPagedList<Data.Entities.Game>
+@using PagedList.Mvc;
+@using PagedList;
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Games</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            Release Year
+        </th>
+        <th>
+            @Html.ActionLink("Genre", "Index", new { sortOrder = ViewBag.GenreSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Rating", "Index", new { sortOrder = ViewBag.RatingSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReleaseYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genre.GenreName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating.RatingValue)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.GameId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.GameId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.GameId })
+        </td>
+    </tr>
+}
+
+</table>
+
+@Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

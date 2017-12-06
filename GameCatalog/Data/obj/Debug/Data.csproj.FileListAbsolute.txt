@@ -1,0 +1,11 @@
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\Data.dll.config
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\Data.dll
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\Data.pdb
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\EntityFramework.dll
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\EntityFramework.xml
+C:\Users\Nikito\source\repos\GameCatalog\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nikito\source\repos\GameCatalog\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Nikito\source\repos\GameCatalog\Data\obj\Debug\Data.dll
+C:\Users\Nikito\source\repos\GameCatalog\Data\obj\Debug\Data.pdb
+C:\Users\Nikito\source\repos\GameCatalog\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
